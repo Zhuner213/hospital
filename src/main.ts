@@ -15,8 +15,6 @@ import router from '@/router'
 // 创建应用实例
 const app = createApp(App)
 
-console.log(HospitalTop, HospitalBottom)
-
 // 注册全局组件
 app.component('HospitalTop', HospitalTop)
 app.component('HospitalBottom', HospitalBottom)

@@ -25,6 +25,7 @@
         background: yellow;
         display: flex;
         justify-content: center;
+        z-index: 999;
 
         .top-content {
             width: 1200px;
