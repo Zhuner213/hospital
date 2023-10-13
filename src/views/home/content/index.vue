@@ -1,5 +1,5 @@
 <template>
-    <a-row class="content">
+    <a-row class="content" :gutter="24">
         <a-col :span="20">
             <Main></Main>
         </a-col>

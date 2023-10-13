@@ -1,20 +1,21 @@
 <template>
-    <div class="wrap">
-        <HospitalTop/>
-        <div class="main">
-            <router-view></router-view>
+    <a-config-provider :locale="zhCN">
+        <div class="wrap">
+            <HospitalTop />
+            <div class="main">
+                <router-view></router-view>
+            </div>
+            <HospitalBottom />
         </div>
-        <HospitalBottom/>
-    </div>
+    </a-config-provider>
 </template>
 
 <script setup lang="ts">
-
+import zhCN from 'ant-design-vue/es/locale/zh_CN';
 </script>
 
 <style scoped lang="scss">
 .main {
-    height: 700px;
     margin-top: 70px;
 }
 </style>

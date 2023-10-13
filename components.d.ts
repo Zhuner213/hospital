@@ -8,9 +8,12 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AAutoComplete: typeof import('ant-design-vue/es')['AutoComplete']
+    ACard: typeof import('ant-design-vue/es')['Card']
     ACarousel: typeof import('ant-design-vue/es')['Carousel']
     ACol: typeof import('ant-design-vue/es')['Col']
+    AConfigProvider: typeof import('ant-design-vue/es')['ConfigProvider']
     AInputSearch: typeof import('ant-design-vue/es')['InputSearch']
+    APagination: typeof import('ant-design-vue/es')['Pagination']
     ARow: typeof import('ant-design-vue/es')['Row']
     HospitalBottom: typeof import('./src/components/hospital-bottom/index.vue')['default']
     HospitalTop: typeof import('./src/components/hospital-top/index.vue')['default']
